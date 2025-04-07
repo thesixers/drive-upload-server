@@ -3,7 +3,7 @@ import cors from 'cors';
 import expressUploader from 'express-fileupload';
 import cookieParser from 'cookie-parser';
 import {config} from 'dotenv';
-import uploadFile from './middleware/upload';
+import uploadFile from './middleware/upload.js';
 config();
 
 const { PORT } = process.env;
