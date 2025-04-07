@@ -3,7 +3,7 @@ import path from 'path';
 import fs from 'fs';
 
 // Path to your service account JSON key file
-const keyPath = "../omega-moonlight-450515-u0-d522766304a0.json";
+const keyPath = path.join(__dirname,  "omega-moonlight-450515-u0-d522766304a0.json")
 
 // Load the service account credentials
 const auth = new google.auth.GoogleAuth({
