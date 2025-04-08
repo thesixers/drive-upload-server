@@ -1,6 +1,9 @@
-import { google } from 'googleapis';
-import path from 'path';
-import fs from 'fs';
+
+const { google } = require('googleapis');
+const path = require('path');
+const fs = require('fs');
+
+
 
 // Path to your service account JSON key file
 const keyPath = path.join(__dirname,  "omega-moonlight-450515-u0-d522766304a0.json")
